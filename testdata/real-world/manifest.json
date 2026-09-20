@@ -1,0 +1,1784 @@
+{
+  "reference_tools": {
+    "cffconvert": "2.0.0",
+    "ruamel.yaml": "0.18.16",
+    "jsonschema": "3.2.0"
+  },
+  "fixtures": [
+    {
+      "file": "LidkeLab--matlab-instrument-control.cff",
+      "source_url": "https://github.com/LidkeLab/matlab-instrument-control/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/LidkeLab/matlab-instrument-control/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "de3e9afc130d135bdba1f86b62d2c91e47bcdb5c18b68ce16c5c5541b4789b87",
+      "size_bytes": 3043,
+      "declared_version_lexeme": "1.0.0",
+      "declared_version": "1.0.0",
+      "yaml_status": "invalid",
+      "yaml_error": {
+        "type": "ParserError",
+        "message": "while parsing a block collection\n  in \"<unicode string>\", line 4, column 3\ndid not find expected '-' indicator\n  in \"<unicode string>\", line 50, column 3"
+      },
+      "schema_status": "not_applicable",
+      "fields": [],
+      "syntax": [],
+      "lexical_field_names": [
+        "affiliation",
+        "authors",
+        "cff-version",
+        "date-released",
+        "doi",
+        "family-names",
+        "given-names",
+        "keywords",
+        "license",
+        "message",
+        "orcid",
+        "references",
+        "title",
+        "type",
+        "url",
+        "version"
+      ],
+      "cffconvert_status": "unsupported_version",
+      "cffconvert_error": "Unrecognized value for key \"cff-version\".",
+      "classification": "negative_yaml"
+    },
+    {
+      "file": "resurfemg-org--ReSurfEMG.cff",
+      "source_url": "https://github.com/resurfemg-org/ReSurfEMG/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/resurfemg-org/ReSurfEMG/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "8c290646c5314096a673087c060c09fb607c4efee560d60b83d0e9856d9c03bb",
+      "size_bytes": 1549,
+      "declared_version_lexeme": "1.1.1",
+      "declared_version": "1.1.1",
+      "yaml_status": "invalid",
+      "yaml_error": {
+        "type": "DuplicateKeyError",
+        "message": "while constructing a mapping\n  in \"<unicode string>\", line 7, column 5\nfound duplicate key \"affiliation\" with value \"University of Twente\" (original value: \"University Health Network\")\n  in \"<unicode string>\", line 8, column 5\n\nTo suppress this check see:\n    https://yaml.dev/doc/ruamel.yaml/api/#Duplicate_keys\n"
+      },
+      "schema_status": "not_applicable",
+      "fields": [],
+      "syntax": [],
+      "lexical_field_names": [
+        "affiliation",
+        "authors",
+        "cff-version",
+        "date-released",
+        "family-names",
+        "given-names",
+        "keywords",
+        "license",
+        "message",
+        "orcid",
+        "repository-artifact",
+        "repository-code",
+        "title",
+        "type",
+        "version"
+      ],
+      "cffconvert_status": "unsupported_version",
+      "cffconvert_error": "Unrecognized value for key \"cff-version\".",
+      "classification": "negative_yaml"
+    },
+    {
+      "file": "lcn-kul--compositionality-study.cff",
+      "source_url": "https://github.com/lcn-kul/compositionality-study/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/lcn-kul/compositionality-study/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "e492023bdfd6d5a008c1b2ddb331312ab537037fa57e686c9529541971e06bf5",
+      "size_bytes": 218,
+      "declared_version_lexeme": "1.0.2",
+      "declared_version": "1.0.2",
+      "yaml_status": "valid",
+      "fields": [
+        "authors[].name",
+        "cff-version",
+        "doi",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "authors[].name",
+          "style": "double-quoted"
+        },
+        {
+          "path": "message",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "url",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "Compositionality Study",
+        "cff-version": "1.0.2"
+      },
+      "expected_authors": [
+        {
+          "name": "Anonymous"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "invalid",
+      "cffconvert_status": "rejected",
+      "cffconvert_error": "<SchemaError: error code 2: Schema validation failed:",
+      "schema_error": "<SchemaError: error code 2: Schema validation failed:\n - Cannot find required key 'date-released'. Path: ''.: Path: '/'>",
+      "classification": "negative_schema"
+    },
+    {
+      "file": "rickhelmus--patRoon.cff",
+      "source_url": "https://github.com/rickhelmus/patRoon/raw/master/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/rickhelmus/patRoon/master/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "78b007c748b11a33e79a9ff93ae0f12211865ba7dde1be972b96334f7ab54573",
+      "size_bytes": 556,
+      "declared_version_lexeme": "1.0.3",
+      "declared_version": "1.0.3",
+      "yaml_status": "valid",
+      "fields": [
+        "cff-version",
+        "date-released",
+        "doi",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "authors[].family-names",
+          "style": "single-quoted"
+        },
+        {
+          "path": "authors[].given-names",
+          "style": "single-quoted"
+        },
+        {
+          "path": "title",
+          "style": "single-quoted"
+        },
+        {
+          "path": "url",
+          "style": "single-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "patRoon: open source software platform for environmental mass spectrometry based non-target screening",
+        "cff-version": "1.0.3"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Helmus",
+          "given-names": "Rick"
+        },
+        {
+          "family-names": "ter Laak",
+          "given-names": "Thomas L."
+        },
+        {
+          "family-names": "van Wezel",
+          "given-names": "Annemarie P."
+        },
+        {
+          "family-names": "de Voogt",
+          "given-names": "Pim"
+        },
+        {
+          "family-names": "Schymanski",
+          "given-names": "Emma L."
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "invalid",
+      "cffconvert_status": "rejected",
+      "cffconvert_error": "<SchemaError: error code 2: Schema validation failed:",
+      "schema_error": "<SchemaError: error code 2: Schema validation failed:\n - Cannot find required key 'message'. Path: ''.\n - Cannot find required key 'version'. Path: ''.: Path: '/'>",
+      "classification": "negative_schema"
+    },
+    {
+      "file": "ankilab--EvoVis.cff",
+      "source_url": "https://github.com/ankilab/EvoVis/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/ankilab/EvoVis/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "a2a711ddd72b172436398ea1435a577824cc849bc423e055fe9eaad027219057",
+      "size_bytes": 962,
+      "declared_version_lexeme": "1.1.0",
+      "declared_version": "1.1.0",
+      "yaml_status": "valid",
+      "fields": [
+        "authors[].affiliation",
+        "authors[].orcid",
+        "cff-version",
+        "date-released",
+        "keywords",
+        "repository-code"
+      ],
+      "syntax": [
+        {
+          "path": "message",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "version",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "EvoVis: Dashboard for Visualizing Evolutionary Neural Architecture Search Algorithms",
+        "cff-version": "1.1.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Dang",
+          "given-names": "Lea",
+          "orcid": "https://orcid.org/0009-0005-6056-0725",
+          "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany"
+        },
+        {
+          "family-names": "Groh",
+          "given-names": "René",
+          "orcid": "https://orcid.org/0000-0002-3405-1311",
+          "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany"
+        },
+        {
+          "family-names": "Kist",
+          "given-names": "Andreas M.",
+          "orcid": "https://orcid.org/0000-0003-3643-7776",
+          "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "danStich--anadrofish.cff",
+      "source_url": "https://github.com/danStich/anadrofish/raw/master/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/danStich/anadrofish/master/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "7e5d3858bc106ac71de2660240f9865db68062d52864d539ecfbe0cd2aa23c68",
+      "size_bytes": 7893,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "abstract",
+        "authors[].orcid",
+        "cff-version",
+        "contact",
+        "contact[].orcid",
+        "date-released",
+        "license",
+        "references",
+        "references[].abstract",
+        "references[].authors[].name",
+        "references[].authors[].name-particle",
+        "references[].authors[].orcid",
+        "references[].doi",
+        "references[].institution.name",
+        "references[].type",
+        "references[].url",
+        "type",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "date-released",
+          "style": "single-quoted"
+        },
+        {
+          "path": "message",
+          "style": "single-quoted"
+        },
+        {
+          "path": "references[].abstract",
+          "style": "single-quoted"
+        },
+        {
+          "path": "references[].title",
+          "style": "single-quoted"
+        },
+        {
+          "path": "references[].version",
+          "style": "single-quoted"
+        },
+        {
+          "path": "references[].year",
+          "style": "single-quoted"
+        },
+        {
+          "path": "title",
+          "style": "single-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "anadrofish: Anadromous Fish Population Responses to Dams",
+        "abstract": "Stochastic estimation of anadromous fish population response to changes in habitat.",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Stich",
+          "given-names": "Daniel S.",
+          "email": "daniel.stich@oneonta.edu",
+          "orcid": "https://orcid.org/0000-0002-8946-1115"
+        },
+        {
+          "family-names": "Hardesty",
+          "given-names": "J. D.",
+          "orcid": "https://orcid.org/0009-0009-0280-1999"
+        },
+        {
+          "family-names": "Jordan",
+          "given-names": "N. T.",
+          "orcid": "https://orcid.org/0009-0009-8632-6979"
+        },
+        {
+          "family-names": "Roy",
+          "given-names": "S. G.",
+          "orcid": "https://orcid.org/0000-0002-2491-948X"
+        },
+        {
+          "family-names": "Sheehan",
+          "given-names": "T. F.",
+          "orcid": "https://orcid.org/0000-0002-9689-1180"
+        },
+        {
+          "family-names": "Snyder",
+          "given-names": "S. D.",
+          "orcid": "https://orcid.org/0000-0003-3286-4957"
+        },
+        {
+          "family-names": "Zydlewski",
+          "given-names": "J. D.",
+          "orcid": "https://orcid.org/0000-0002-2255-2303"
+        }
+      ],
+      "expected_reference_count": 9,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "simonehagey--orbdot.cff",
+      "source_url": "https://github.com/simonehagey/orbdot/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/simonehagey/orbdot/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "2c4e53cbae000594704e4c6b3c96b3738bb8b07ae99a4f5d68ca980c6fb7200a",
+      "size_bytes": 1034,
+      "declared_version_lexeme": "\"1.2.0\"",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "authors[].orcid",
+        "cff-version",
+        "doi",
+        "preferred-citation",
+        "preferred-citation.authors[].orcid",
+        "preferred-citation.doi",
+        "preferred-citation.publisher.name",
+        "preferred-citation.type",
+        "preferred-citation.url"
+      ],
+      "syntax": [
+        {
+          "path": "authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "cff-version",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.url",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "OrbDot: A Python package for studying the secular evolution of exoplanet orbits",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Hagey",
+          "given-names": "Simone R.",
+          "orcid": "https://orcid.org/0000-0001-8072-0590"
+        },
+        {
+          "family-names": "Boley",
+          "given-names": "Aaron",
+          "orcid": "https://orcid.org/0000-0002-0574-4418"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "BastiDood--hotspotter.cff",
+      "source_url": "https://github.com/BastiDood/hotspotter/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/BastiDood/hotspotter/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "ee3de40ea172284a23c4937326e923483bba3e7973027a27cc53d68fb0cf0854",
+      "size_bytes": 1119,
+      "declared_version_lexeme": "'1.2.0'",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "abstract",
+        "authors[].affiliation",
+        "authors[].orcid",
+        "cff-version",
+        "commit",
+        "date-released",
+        "identifiers",
+        "identifiers[].type",
+        "keywords",
+        "license",
+        "repository-code"
+      ],
+      "syntax": [
+        {
+          "path": "abstract",
+          "style": "single-quoted"
+        },
+        {
+          "path": "authors[].affiliation",
+          "style": "single-quoted"
+        },
+        {
+          "path": "authors[].email",
+          "style": "single-quoted"
+        },
+        {
+          "path": "authors[].family-names",
+          "style": "single-quoted"
+        },
+        {
+          "path": "authors[].given-names",
+          "style": "single-quoted"
+        },
+        {
+          "path": "authors[].orcid",
+          "style": "single-quoted"
+        },
+        {
+          "path": "authors[].website",
+          "style": "single-quoted"
+        },
+        {
+          "path": "cff-version",
+          "style": "single-quoted"
+        },
+        {
+          "path": "commit",
+          "style": "single-quoted"
+        },
+        {
+          "path": "date-released",
+          "style": "single-quoted"
+        },
+        {
+          "path": "identifiers[].type",
+          "style": "single-quoted"
+        },
+        {
+          "path": "identifiers[].value",
+          "style": "single-quoted"
+        },
+        {
+          "path": "keywords[]",
+          "style": "single-quoted"
+        },
+        {
+          "path": "license",
+          "style": "single-quoted"
+        },
+        {
+          "path": "message",
+          "style": "single-quoted"
+        },
+        {
+          "path": "repository-code",
+          "style": "single-quoted"
+        },
+        {
+          "path": "title",
+          "style": "single-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "Hotspotter: An Incentivized Crowdsensing System for WiFi and Cellular Network Coverage Visualization",
+        "abstract": "Hotspotter is an incentivized crowdsensing system for the visualization of Wi-Fi and cellular network coverage.",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Ortiz",
+          "given-names": "Sebastian Luis",
+          "email": "ssortiz@up.edu.ph",
+          "website": "https://bastidood.github.io/",
+          "affiliation": "University of the Philippines Diliman",
+          "orcid": "https://orcid.org/0009-0007-9631-8708"
+        },
+        {
+          "family-names": "Enriquez",
+          "given-names": "Justin Gabriel",
+          "email": "jrenriquez4@up.edu.ph",
+          "affiliation": "University of the Philippines Diliman",
+          "orcid": "https://orcid.org/0009-0005-0203-0179"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "cersonsky-lab--AniSOAP.cff",
+      "source_url": "https://github.com/cersonsky-lab/AniSOAP/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/cersonsky-lab/AniSOAP/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "d608890ab9a68ecfd4724485fff43053e9fb8887bef4abdaa47888861b911243",
+      "size_bytes": 2345,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "abstract",
+        "authors[].affiliation",
+        "authors[].orcid",
+        "cff-version",
+        "identifiers",
+        "identifiers[].type",
+        "keywords",
+        "license",
+        "repository-code",
+        "type",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "abstract",
+          "style": "folded-block"
+        },
+        {
+          "path": "authors[].orcid",
+          "style": "single-quoted"
+        },
+        {
+          "path": "identifiers[].value",
+          "style": "single-quoted"
+        },
+        {
+          "path": "message",
+          "style": "folded-block"
+        },
+        {
+          "path": "repository-code",
+          "style": "single-quoted"
+        },
+        {
+          "path": "url",
+          "style": "single-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "AniSOAP",
+        "abstract": "`AniSOAP` is a package that creates Machine Learning (ML) representations of non-spherical particle configurations; these representations can then be used in ML-driven simulations and analyses. This generalization of existing spherical ML representations therefore aims to bridge the gap between two scientific communities: The machine-learned atomistic simulation community, whose primary concern is obtaining fast and (quantum) accurate descriptions of the complex interactions occuring between (spherical) atoms, and the coarse-grained and colloid modeling community, whose primary concern is understanding emergent behavior of macroscopic particles with (plausibly) complex geometries. `AniSOAP` provide a common framework to answer scientific questions at the intersection of these two fields.",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "given-names": "Arthur",
+          "family-names": "Lin",
+          "email": "alin62@wisc.edu",
+          "affiliation": "University of Wisconsin-Madison",
+          "orcid": "https://orcid.org/0000-0002-7665-3767"
+        },
+        {
+          "given-names": "Lucas",
+          "family-names": "Ortengren",
+          "orcid": "https://orcid.org/0009-0002-8899-7513",
+          "affiliation": "University of Wisconsin-Madison",
+          "email": "ortengren@wisc.edu"
+        },
+        {
+          "given-names": "Seonwoo",
+          "family-names": "Hwang",
+          "email": "hwangsean1119@gmail.com",
+          "affiliation": "University of Wisconsin-Madison"
+        },
+        {
+          "given-names": "Yong-Cheol",
+          "family-names": "Cho",
+          "affiliation": "University of Illinois Urbana-Champaign",
+          "orcid": "https://orcid.org/0009-0001-6038-6764"
+        },
+        {
+          "given-names": "Jigyasa",
+          "family-names": "Nigam",
+          "orcid": "https://orcid.org/0000-0001-6857-4332"
+        },
+        {
+          "given-names": "Rose",
+          "family-names": "Cersonsky",
+          "email": "rose.cersonsky@wisc.edu",
+          "affiliation": "University of Wisconsin-Madison",
+          "orcid": "https://orcid.org/0000-0003-4515-3441"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "llnl--SSAPy.cff",
+      "source_url": "https://github.com/llnl/SSAPy/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/llnl/SSAPy/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "34a4e5d76e0a8492d43c49e4ef95f594b66e8fcf5daa3a5934f7715aa9bfa835",
+      "size_bytes": 4126,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "authors[].affiliation",
+        "authors[].orcid",
+        "cff-version",
+        "date-released",
+        "doi",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "authors[].affiliation",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].email",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].family-names",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].given-names",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "message",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "url",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "Space Situational Awareness for Python",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Meyers",
+          "given-names": "Joshua E.",
+          "affiliation": "SLAC National Accelerator Laboratory",
+          "orcid": "https://orcid.org/0000-0002-2308-4230",
+          "email": "jmeyers3@stanford.edu"
+        },
+        {
+          "family-names": "Yeager",
+          "given-names": "Travis",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0002-2582-0190",
+          "email": "yeager7@llnl.gov"
+        },
+        {
+          "family-names": "Schneider",
+          "given-names": "Michael",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0002-8505-7094",
+          "email": "schneider42@llnl.gov"
+        },
+        {
+          "family-names": "Schlafly",
+          "given-names": "Edward",
+          "affiliation": "Space Telescope Science Institute",
+          "orcid": "https://orcid.org/0000-0002-3569-7421",
+          "email": "eschlafly@stsci.edu"
+        },
+        {
+          "family-names": "Ebert",
+          "given-names": "Julia",
+          "affiliation": "Fleet Robotics",
+          "orcid": "https://orcid.org/0000-0002-1975-772X",
+          "email": "julia@juliaebert.com"
+        },
+        {
+          "family-names": "Higgins",
+          "given-names": "Denvir",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0002-7579-1092"
+        },
+        {
+          "family-names": "Bernstein",
+          "given-names": "Jason",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0002-3391-5931"
+        },
+        {
+          "family-names": "Merl",
+          "given-names": "Daniel",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0003-4196-5354",
+          "email": "merl1@llnl.gov"
+        },
+        {
+          "family-names": "Goumiri",
+          "given-names": "Imène",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0002-3149-7828"
+        },
+        {
+          "family-names": "Armstrong",
+          "given-names": "Robert",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0002-6911-1038",
+          "email": "armstrong46@llnl.gov"
+        },
+        {
+          "family-names": "Lifset",
+          "given-names": "Noah",
+          "affiliation": "The University of Texas at Austin",
+          "orcid": "https://orcid.org/0000-0003-3397-7021"
+        },
+        {
+          "family-names": "Perloff",
+          "given-names": "Alexx",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0001-5230-0396",
+          "email": "perloff11@llnl.gov"
+        },
+        {
+          "family-names": "McGill",
+          "given-names": "Peter",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0002-1052-6749"
+        },
+        {
+          "family-names": "Golovich",
+          "given-names": "Nathan",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0003-2632-572X",
+          "email": "golovich1@llnl.gov"
+        },
+        {
+          "family-names": "Pruett",
+          "given-names": "Kerianne",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0002-2911-8657",
+          "email": "pruett6@llnl.gov"
+        },
+        {
+          "family-names": "Miller",
+          "given-names": "Caleb",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0001-6249-0031"
+        },
+        {
+          "family-names": "Dawson",
+          "given-names": "William A.",
+          "affiliation": "Lawrence Livermore National Laboratory",
+          "orcid": "https://orcid.org/0000-0003-0248-6123",
+          "email": "dawson29@llnl.gov"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "TARGENE--TMLE.jl.cff",
+      "source_url": "https://github.com/TARGENE/TMLE.jl/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/TARGENE/TMLE.jl/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "677014374164b53dda4b86f3f462fe771afe58001c88650423a728b98ea4413c",
+      "size_bytes": 1538,
+      "declared_version_lexeme": "\"1.2.0\"",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "authors[].name-particle",
+        "authors[].orcid",
+        "cff-version",
+        "doi",
+        "preferred-citation",
+        "preferred-citation.authors[].name-particle",
+        "preferred-citation.authors[].orcid",
+        "preferred-citation.doi",
+        "preferred-citation.publisher.name",
+        "preferred-citation.type",
+        "preferred-citation.url"
+      ],
+      "syntax": [
+        {
+          "path": "authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "cff-version",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.url",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "TMLE.jl: Targeted Minimum Loss-Based Estimation in Julia",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Labayle",
+          "given-names": "Olivier",
+          "orcid": "https://orcid.org/0000-0002-3708-3706"
+        },
+        {
+          "family-names": "Ponting",
+          "given-names": "Chris P.",
+          "orcid": "https://orcid.org/0000-0003-0202-7816"
+        },
+        {
+          "family-names": "Laan",
+          "given-names": "Mark J.",
+          "name-particle": "van der"
+        },
+        {
+          "family-names": "Khamseh",
+          "given-names": "Ava",
+          "orcid": "https://orcid.org/0000-0001-5203-2205"
+        },
+        {
+          "family-names": "Beentjes",
+          "given-names": "Sjoerd Viktor",
+          "orcid": "https://orcid.org/0000-0002-7998-4262"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "AP6YC--ClusterValidityIndices.jl.cff",
+      "source_url": "https://github.com/AP6YC/ClusterValidityIndices.jl/raw/develop/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/AP6YC/ClusterValidityIndices.jl/develop/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "49014ee73e72f70eb6b7f81ffff20d2bb621ed7578f8a45c76bfd982a71dcbd5",
+      "size_bytes": 2303,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "abstract",
+        "authors[].affiliation",
+        "authors[].orcid",
+        "cff-version",
+        "identifiers",
+        "identifiers[].type",
+        "institution.name",
+        "keywords",
+        "license",
+        "preferred-citation",
+        "preferred-citation.authors[].affiliation",
+        "preferred-citation.authors[].name-suffix",
+        "preferred-citation.authors[].orcid",
+        "preferred-citation.identifiers",
+        "preferred-citation.identifiers[].type",
+        "preferred-citation.institution.name",
+        "preferred-citation.type",
+        "preferred-citation.url",
+        "repository-code",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "abstract",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].affiliation",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].alias",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].email",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].family-names",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].given-names",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].website",
+          "style": "double-quoted"
+        },
+        {
+          "path": "identifiers[].description",
+          "style": "double-quoted"
+        },
+        {
+          "path": "identifiers[].type",
+          "style": "double-quoted"
+        },
+        {
+          "path": "identifiers[].value",
+          "style": "double-quoted"
+        },
+        {
+          "path": "institution.name",
+          "style": "double-quoted"
+        },
+        {
+          "path": "keywords[]",
+          "style": "double-quoted"
+        },
+        {
+          "path": "license",
+          "style": "double-quoted"
+        },
+        {
+          "path": "message",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].affiliation",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].alias",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].email",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].family-names",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].given-names",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].name-suffix",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].website",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.identifiers[].description",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.identifiers[].type",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.identifiers[].value",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.institution.name",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.journal",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.publisher",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.type",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.url",
+          "style": "double-quoted"
+        },
+        {
+          "path": "repository-code",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "url",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "AP6YC/ClusterValidityIndices.jl",
+        "abstract": "This software is a Julia package for incremental and batch Cluster Validity Indices (CVI).",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Petrenko",
+          "given-names": "Sasha",
+          "orcid": "https://orcid.org/0000-0003-2442-8901",
+          "website": "https://ap6yc.github.io/",
+          "email": "sap625@mst.edu",
+          "alias": "AP6YC",
+          "affiliation": "Missouri University of Science and Technology"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "invalid",
+      "schema_diagnostics": [
+        {
+          "path": [],
+          "rule": "additionalProperties",
+          "message": "Additional properties are not allowed ('institution' was unexpected)"
+        },
+        {
+          "path": [
+            "preferred-citation",
+            "publisher"
+          ],
+          "rule": "type",
+          "message": "'The Open Journal' is not of type 'object'"
+        }
+      ],
+      "cffconvert_status": "rejected",
+      "cffconvert_error": "Additional properties are not allowed ('institution' was unexpected)",
+      "classification": "negative_schema"
+    },
+    {
+      "file": "otvam--pypeec.cff",
+      "source_url": "https://github.com/otvam/pypeec/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/otvam/pypeec/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "f39c7aa5f194da2dcd6a03e3912295f5359792d31574458550f4dc974d5c69ae",
+      "size_bytes": 1182,
+      "declared_version_lexeme": "\"1.2.0\"",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "authors[].orcid",
+        "cff-version",
+        "contact",
+        "contact[].orcid",
+        "doi",
+        "preferred-citation",
+        "preferred-citation.authors[].orcid",
+        "preferred-citation.doi",
+        "preferred-citation.publisher.name",
+        "preferred-citation.type",
+        "preferred-citation.url"
+      ],
+      "syntax": [
+        {
+          "path": "authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "cff-version",
+          "style": "double-quoted"
+        },
+        {
+          "path": "contact[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "preferred-citation.url",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "PyPEEC: A 3D Quasi-Magnetostatic Solver using an FFT-Accelerated PEEC Method with Voxelization",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Guillod",
+          "given-names": "Thomas",
+          "orcid": "https://orcid.org/0000-0003-0738-5823"
+        },
+        {
+          "family-names": "Sullivan",
+          "given-names": "Charles R.",
+          "orcid": "https://orcid.org/0000-0001-7492-9005"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "HzaCode--ChemInformant.cff",
+      "source_url": "https://github.com/HzaCode/ChemInformant/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/HzaCode/ChemInformant/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "531fa3bde5a876f735566fa5a8131a7da5125508732506b76c6770889423e302",
+      "size_bytes": 674,
+      "declared_version_lexeme": "2.1.1",
+      "declared_version": "2.1.1",
+      "yaml_status": "valid",
+      "fields": [
+        "authors[].orcid",
+        "cff-version",
+        "date-released",
+        "keywords",
+        "license",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "authors[].family-names",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].given-names",
+          "style": "double-quoted"
+        },
+        {
+          "path": "authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "message",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "double-quoted"
+        },
+        {
+          "path": "url",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "ChemInformant",
+        "cff-version": "2.1.1"
+      },
+      "expected_authors": [
+        {
+          "family-names": "He",
+          "given-names": "Zhiang",
+          "orcid": "https://orcid.org/0009-0009-0171-4578"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "unverified",
+      "cffconvert_status": "unsupported_version",
+      "cffconvert_error": "Unrecognized value for key \"cff-version\".",
+      "classification": "unsupported_version"
+    },
+    {
+      "file": "hexatomic--hexatomic.cff",
+      "source_url": "https://github.com/hexatomic/hexatomic/raw/develop/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/hexatomic/hexatomic/develop/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "3e4e4d363028921d03370bb97bfa1395a23d6f147d7652573fe093451312df16",
+      "size_bytes": 57935,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "abstract",
+        "authors[].affiliation",
+        "authors[].orcid",
+        "cff-version",
+        "date-released",
+        "doi",
+        "identifiers",
+        "identifiers[].type",
+        "license",
+        "references",
+        "references[].authors[].name",
+        "references[].license",
+        "references[].license-url",
+        "references[].repository-code",
+        "references[].type",
+        "repository-code",
+        "type",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "abstract",
+          "style": "literal-block"
+        },
+        {
+          "path": "references[].version",
+          "style": "single-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "Hexatomic",
+        "abstract": "Hexatomic is an extensible, OS-independent platform for deep multi-layer linguistic annotation of corpora.\n\nIt is being developed for sustainability, in order to support research software re-use rather than new development of software with each new research project.\nUsing Hexatomic, linguistic research projects can implement what they need on top of an existing platform.\n\nTo safeguard compatibility, Hexatomic works on instances of Salt projects. Salt is a generic metamodel for linguistic data.",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Druskat",
+          "given-names": "Stephan",
+          "orcid": "https://orcid.org/0000-0003-4925-7248",
+          "affiliation": "German Aerospace Center (DLR), Friedrich Schiller University Jena",
+          "email": "stephan.druskat@dlr.de"
+        },
+        {
+          "family-names": "Krause",
+          "given-names": "Thomas",
+          "orcid": "https://orcid.org/0000-0003-3731-2422",
+          "affiliation": "Humboldt-Universität zu Berlin"
+        },
+        {
+          "family-names": "Lachenmaier",
+          "given-names": "Clara",
+          "orcid": "https://orcid.org/0000-0002-9207-3420"
+        },
+        {
+          "family-names": "Bunzeck",
+          "given-names": "Bastian"
+        }
+      ],
+      "expected_reference_count": 186,
+      "schema_status": "invalid",
+      "schema_diagnostics": [
+        {
+          "path": [
+            "references",
+            0,
+            "version"
+          ],
+          "rule": "anyOf",
+          "message": "None is not valid under any of the given schemas"
+        },
+        {
+          "path": [
+            "references",
+            7,
+            "license"
+          ],
+          "rule": "oneOf",
+          "message": "'Apache-2.0 OR LGPL-2.1-or-later' is not valid under any of the given schemas"
+        },
+        {
+          "path": [
+            "references",
+            8,
+            "license"
+          ],
+          "rule": "oneOf",
+          "message": "'LGPL-2.1 OR Apache-2.0' is not valid under any of the given schemas"
+        },
+        {
+          "path": [
+            "references",
+            13,
+            "license"
+          ],
+          "rule": "oneOf",
+          "message": "'OTHER' is not valid under any of the given schemas"
+        }
+      ],
+      "cffconvert_status": "rejected",
+      "cffconvert_error": "None is not of type 'string'",
+      "classification": "negative_schema"
+    },
+    {
+      "file": "ANP-Granular--ParticleTracking.cff",
+      "source_url": "https://github.com/ANP-Granular/ParticleTracking/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/ANP-Granular/ParticleTracking/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "4e135b18621372e095829b59bcbd48a1d4e464fa45ae3b897b45108d2b005687",
+      "size_bytes": 2252,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "abstract",
+        "authors[].orcid",
+        "cff-version",
+        "commit",
+        "identifiers",
+        "identifiers[].type",
+        "keywords",
+        "license",
+        "repository-code",
+        "type"
+      ],
+      "syntax": [
+        {
+          "path": "abstract",
+          "style": "folded-block"
+        },
+        {
+          "path": "authors[].orcid",
+          "style": "single-quoted"
+        },
+        {
+          "path": "identifiers[].value",
+          "style": "single-quoted"
+        },
+        {
+          "path": "message",
+          "style": "folded-block"
+        },
+        {
+          "path": "repository-code",
+          "style": "single-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "ParticleTracking",
+        "abstract": "ParticleTracking is a repository containing two Python packages for extracting 3D particle coordinate data from the experimental video footage.\nIn these experiments a granular gas (dilute ensemble of macroscopic particles) was observed with a 2-view stereo camera system.\nThe current version of the program is used for experiments with rod-like particles. Each particle is parametrized by 2 endpoint coordinates.\nParticleTracking's goal is to automatically extract the coordinate data and provide a Graphical User Interface (GUI) to correct detection errors manually in an efficient way.\nThen, the corrected particle data can be tracked and ensemble statistics (average velocity/kinetic energy, local packing fractions, etc.) can be extracted.\n\nThe first part is the ParticleDetection package that enables:\n- training of Mask-RCNN models for detecting particles in stereo-camera images\n- assignment of particle correspondences between both images of the stereo setup\n- reconstruction of 3D coordinates and orientations for particles identified in both stereo images\n- tracking of particles over the course of an experiment\n\nThe RodTracker package is a GUI encapsulating the most used functionality of the ParticleDetection package. It enables users to carry out the aforementioned tasks, except for training a model. Additionally, it provides the means to manually correct object localization, 3D assignment and tracking errors in the automatic detection processes.",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "given-names": "Adrian",
+          "family-names": "Niemann",
+          "email": "adrian.niemann@gmx.de",
+          "orcid": "https://orcid.org/0009-0008-2025-1946"
+        },
+        {
+          "given-names": "Dmitry",
+          "family-names": "Puzyrev",
+          "orcid": "https://orcid.org/0000-0002-9269-3224"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "GalacticDynamics--unxt.cff",
+      "source_url": "https://github.com/GalacticDynamics/unxt/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/GalacticDynamics/unxt/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "1a343c5ad0de6f015cd558aebf3be04b5ffbcac11ef8f15d9cb69c14759aaa36",
+      "size_bytes": 1883,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "abstract",
+        "authors[].affiliation",
+        "authors[].orcid",
+        "cff-version",
+        "identifiers",
+        "identifiers[].type",
+        "keywords",
+        "license",
+        "repository-artifact",
+        "repository-code",
+        "type",
+        "url"
+      ],
+      "syntax": [
+        {
+          "path": "abstract",
+          "style": "folded-block"
+        },
+        {
+          "path": "authors[].orcid",
+          "style": "single-quoted"
+        },
+        {
+          "path": "message",
+          "style": "folded-block"
+        },
+        {
+          "path": "repository-artifact",
+          "style": "single-quoted"
+        },
+        {
+          "path": "repository-code",
+          "style": "single-quoted"
+        },
+        {
+          "path": "url",
+          "style": "single-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "unxt",
+        "abstract": "unxt is a Python package for unit-aware computing with JAX, which is a high-performance numerical computing library that enables automatic differentiation and just-in-time compilation to accelerate code execution on multiple compute architectures. unxt is built on top of quax, which provides a framework for building array-like objects that can be used with JAX. unxt extends quax to provide support for unit-aware computing using the astropy.units package as a units backend. unxt provides seamless integration of physical units into high performance numerical computations, significantly enhancing the capabilities of JAX for scientific applications.",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "given-names": "Nathaniel",
+          "family-names": "Starkman",
+          "email": "nstarman@users.noreply.github.com",
+          "affiliation": "MIT",
+          "orcid": "https://orcid.org/0000-0003-3954-3291"
+        },
+        {
+          "given-names": "Adrian",
+          "family-names": "Price-Whelan",
+          "email": "adrn@users.noreply.github.com",
+          "affiliation": "Flatiron Institute",
+          "orcid": "https://orcid.org/0000-0003-0872-7098"
+        },
+        {
+          "given-names": "Jake",
+          "family-names": "Nibauer",
+          "email": "jnibauer@users.noreply.github.com",
+          "affiliation": "Princeton",
+          "orcid": "https://orcid.org/0000-0001-8042-5794"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "lohithgsk--Voice-Spoofing-Detection-Audio.cff",
+      "source_url": "https://github.com/lohithgsk/Voice-Spoofing-Detection-Audio/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/lohithgsk/Voice-Spoofing-Detection-Audio/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "909da799a11b1732fc81db5fd7c3ca96de352f95dd0385cf419014014181532f",
+      "size_bytes": 340,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "cff-version",
+        "date-released",
+        "repository-code",
+        "type"
+      ],
+      "syntax": [
+        {
+          "path": "date-released",
+          "style": "single-quoted"
+        },
+        {
+          "path": "message",
+          "style": "folded-block"
+        },
+        {
+          "path": "repository-code",
+          "style": "folded-block"
+        }
+      ],
+      "expected_metadata": {
+        "title": "Voice-Spoofing-Detection-Audio",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "given-names": "Lohith",
+          "family-names": "Senthilkumar"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "3dgeo-heidelberg--pytreedb.cff",
+      "source_url": "https://github.com/3dgeo-heidelberg/pytreedb/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/3dgeo-heidelberg/pytreedb/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "0fbfd0284548440f29ab6dc168e26641618ee4d5a4c286058dd6ee5f0f79af8a",
+      "size_bytes": 1075,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "authors[].orcid",
+        "cff-version",
+        "date-released",
+        "identifiers",
+        "identifiers[].type",
+        "license",
+        "repository-code"
+      ],
+      "syntax": [
+        {
+          "path": "authors[].orcid",
+          "style": "double-quoted"
+        },
+        {
+          "path": "identifiers[].value",
+          "style": "double-quoted"
+        },
+        {
+          "path": "license",
+          "style": "flow-sequence"
+        },
+        {
+          "path": "license[]",
+          "style": "double-quoted"
+        },
+        {
+          "path": "message",
+          "style": "double-quoted"
+        },
+        {
+          "path": "repository-code",
+          "style": "double-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "pytreedb - library for point clouds of tree vegetation objects.",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Höfle",
+          "given-names": "Bernhard",
+          "orcid": "https://orcid.org/0000-0001-5849-1461"
+        },
+        {
+          "family-names": "Qu",
+          "given-names": "Jiani"
+        },
+        {
+          "family-names": "Winiwarter",
+          "given-names": "Lukas",
+          "orcid": "https://orcid.org/0000-0001-8229-1160"
+        },
+        {
+          "family-names": "Weiser",
+          "given-names": "Hannah",
+          "orcid": "https://orcid.org/0000-0003-3256-7311"
+        },
+        {
+          "family-names": "Zahs",
+          "given-names": "Vivien",
+          "orcid": "https://orcid.org/0000-0001-8200-1661"
+        },
+        {
+          "family-names": "Schäfer",
+          "given-names": "Jannika"
+        },
+        {
+          "family-names": "Fassnacht",
+          "given-names": "Fabian E.",
+          "orcid": "https://orcid.org/0000-0003-1284-9573"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "snek5000--snek5000.cff",
+      "source_url": "https://github.com/snek5000/snek5000/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/snek5000/snek5000/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "8253341c12b6dcd0e9a0b34733c8d07a63ee0f6d09d0d256c058f649726c6141",
+      "size_bytes": 1496,
+      "declared_version_lexeme": "1.2.0",
+      "declared_version": "1.2.0",
+      "yaml_status": "valid",
+      "fields": [
+        "abstract",
+        "authors[].orcid",
+        "cff-version",
+        "date-released",
+        "doi",
+        "identifiers",
+        "identifiers[].type",
+        "license",
+        "repository-code"
+      ],
+      "syntax": [
+        {
+          "path": "abstract",
+          "style": "literal-block"
+        },
+        {
+          "path": "message",
+          "style": "double-quoted"
+        },
+        {
+          "path": "repository-code",
+          "style": "double-quoted"
+        },
+        {
+          "path": "title",
+          "style": "single-quoted"
+        }
+      ],
+      "expected_metadata": {
+        "title": "Snek5000: a new Python framework for Nek5000",
+        "abstract": "Computational fluid dynamics (CFD) simulations are essential tools in various\nscientific and engineering disciplines. Nek5000 is a CFD Fortran code based on\nspectral element methods with a proven track record in numerous applications.\nIn this article, we present Snek5000, a Python package designed to streamline\nthe management and visualization of fluid dynamics simulations based on\nNek5000. The package builds upon the functionality of Nek5000 by providing a\nuser-friendly interface for launching and restarting simulations, loading\nsimulation data, and generating figures and movies. This paper introduces\nSnek5000, discusses its design principles, and highlights its impact on the\nscientific community.\n",
+        "cff-version": "1.2.0"
+      },
+      "expected_authors": [
+        {
+          "family-names": "Mohanan",
+          "given-names": "Ashwin Vishnu",
+          "orcid": "https://orcid.org/0000-0002-2979-6327"
+        },
+        {
+          "family-names": "Khoubani",
+          "given-names": "Arman",
+          "orcid": "https://orcid.org/0000-0002-0295-5308"
+        },
+        {
+          "family-names": "Augier",
+          "given-names": "Pierre",
+          "orcid": "https://orcid.org/0000-0001-9481-4459"
+        }
+      ],
+      "expected_reference_count": 0,
+      "schema_status": "valid",
+      "schema_diagnostics": [],
+      "cffconvert_status": "valid",
+      "classification": "positive"
+    },
+    {
+      "file": "MillionConcepts--pdr.cff",
+      "source_url": "https://github.com/MillionConcepts/pdr/raw/main/CITATION.cff",
+      "effective_url": "https://raw.githubusercontent.com/MillionConcepts/pdr/main/CITATION.cff",
+      "http_status": 200,
+      "retrieved_on": "2026-09-20",
+      "sha256": "d5b6a0f64180d4b85efa6263152ec03aecf2d9487e1150264d6d1bce827548dd",
+      "size_bytes": 577,
+      "declared_version_lexeme": null,
+      "declared_version": null,
+      "yaml_status": "invalid",
+      "yaml_error": {
+        "type": "ScannerError",
+        "message": "while scanning for the next token\nfound character that cannot start any token\n  in \"<unicode string>\", line 3, column 1"
+      },
+      "schema_status": "not_applicable",
+      "fields": [],
+      "syntax": [],
+      "lexical_field_names": [],
+      "cffconvert_status": "rejected",
+      "cffconvert_error": "Unable to identify the schema version. Required key 'cff-version' seems to be missing.",
+      "classification": "negative_yaml"
+    }
+  ]
+}

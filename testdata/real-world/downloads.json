@@ -1,0 +1,149 @@
+[
+  {
+    "file": "LidkeLab--matlab-instrument-control.cff",
+    "source_url": "https://github.com/LidkeLab/matlab-instrument-control/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/LidkeLab/matlab-instrument-control/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "resurfemg-org--ReSurfEMG.cff",
+    "source_url": "https://github.com/resurfemg-org/ReSurfEMG/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/resurfemg-org/ReSurfEMG/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "lcn-kul--compositionality-study.cff",
+    "source_url": "https://github.com/lcn-kul/compositionality-study/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/lcn-kul/compositionality-study/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "rickhelmus--patRoon.cff",
+    "source_url": "https://github.com/rickhelmus/patRoon/raw/master/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/rickhelmus/patRoon/master/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "ankilab--EvoVis.cff",
+    "source_url": "https://github.com/ankilab/EvoVis/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/ankilab/EvoVis/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "danStich--anadrofish.cff",
+    "source_url": "https://github.com/danStich/anadrofish/raw/master/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/danStich/anadrofish/master/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "simonehagey--orbdot.cff",
+    "source_url": "https://github.com/simonehagey/orbdot/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/simonehagey/orbdot/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "BastiDood--hotspotter.cff",
+    "source_url": "https://github.com/BastiDood/hotspotter/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/BastiDood/hotspotter/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "cersonsky-lab--AniSOAP.cff",
+    "source_url": "https://github.com/cersonsky-lab/AniSOAP/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/cersonsky-lab/AniSOAP/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "llnl--SSAPy.cff",
+    "source_url": "https://github.com/llnl/SSAPy/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/llnl/SSAPy/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "TARGENE--TMLE.jl.cff",
+    "source_url": "https://github.com/TARGENE/TMLE.jl/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/TARGENE/TMLE.jl/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "AP6YC--ClusterValidityIndices.jl.cff",
+    "source_url": "https://github.com/AP6YC/ClusterValidityIndices.jl/raw/develop/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/AP6YC/ClusterValidityIndices.jl/develop/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "otvam--pypeec.cff",
+    "source_url": "https://github.com/otvam/pypeec/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/otvam/pypeec/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "HzaCode--ChemInformant.cff",
+    "source_url": "https://github.com/HzaCode/ChemInformant/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/HzaCode/ChemInformant/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "hexatomic--hexatomic.cff",
+    "source_url": "https://github.com/hexatomic/hexatomic/raw/develop/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/hexatomic/hexatomic/develop/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "ANP-Granular--ParticleTracking.cff",
+    "source_url": "https://github.com/ANP-Granular/ParticleTracking/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/ANP-Granular/ParticleTracking/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "GalacticDynamics--unxt.cff",
+    "source_url": "https://github.com/GalacticDynamics/unxt/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/GalacticDynamics/unxt/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "lohithgsk--Voice-Spoofing-Detection-Audio.cff",
+    "source_url": "https://github.com/lohithgsk/Voice-Spoofing-Detection-Audio/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/lohithgsk/Voice-Spoofing-Detection-Audio/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "3dgeo-heidelberg--pytreedb.cff",
+    "source_url": "https://github.com/3dgeo-heidelberg/pytreedb/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/3dgeo-heidelberg/pytreedb/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "snek5000--snek5000.cff",
+    "source_url": "https://github.com/snek5000/snek5000/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/snek5000/snek5000/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  },
+  {
+    "file": "MillionConcepts--pdr.cff",
+    "source_url": "https://github.com/MillionConcepts/pdr/raw/main/CITATION.cff",
+    "effective_url": "https://raw.githubusercontent.com/MillionConcepts/pdr/main/CITATION.cff",
+    "http_status": 200,
+    "retrieved_on": "2026-09-20"
+  }
+]

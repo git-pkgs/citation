@@ -1,0 +1,5 @@
+Repository: https://github.com/citation-file-format/ruby-cff
+Revision: 5dd0a83932a71b3a341b1f726f2a555f8489c877
+Source directory: test/files
+License: Apache-2.0; see LICENSE in this directory.
+Files are copied without changes, including invalid examples and expected output.

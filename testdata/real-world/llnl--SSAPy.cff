@@ -1,0 +1,104 @@
+# This file describes the SSAPy software citation. The author list is intended
+# to reflect software development and stewardship across the inherited internal
+# history and the public GitHub repository. It is not derived from a hard
+# public commit-count threshold, and squash/merge authorship is not treated as
+# original implementation authorship.
+#
+# SSAPy also has a JOSS paper:
+#
+# Meyers, J. E., Schneider, M. D., Ebert, J. T., Schlafly, E. F., Yeager, T.,
+# Perloff, A., Merl, D., Lifset, N., Bernstein, J., Dawson, W. A., Golovich, N.,
+# Higgins, D., McGill, P., Miller, C., & Pruett, K. (2025). SSAPy - Space
+# Situational Awareness for Python. Journal of Open Source Software, 10(111),
+# 8147. https://doi.org/10.21105/joss.08147
+#
+# The JOSS paper has its own fixed publication author order. The software
+# metadata below reflects repository authorship and maintenance.
+
+cff-version: 1.2.0
+message: "If you use SSAPy software, please cite the software metadata below. The related JOSS paper may also be cited separately."
+title: "Space Situational Awareness for Python"
+version: 1.1.10
+doi: 10.11578/dc.20240417.1
+date-released: 2026-08-27
+url: "https://github.com/LLNL/SSAPy"
+authors:
+- family-names: "Meyers"
+  given-names: "Joshua E."
+  affiliation: "SLAC National Accelerator Laboratory"
+  orcid: "https://orcid.org/0000-0002-2308-4230"
+  email: "jmeyers3@stanford.edu"
+- family-names: "Yeager"
+  given-names: "Travis"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0002-2582-0190"
+  email: "yeager7@llnl.gov"
+- family-names: "Schneider"
+  given-names: "Michael"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0002-8505-7094"
+  email: "schneider42@llnl.gov"
+- family-names: "Schlafly"
+  given-names: "Edward"
+  affiliation: "Space Telescope Science Institute"
+  orcid: "https://orcid.org/0000-0002-3569-7421"
+  email: "eschlafly@stsci.edu"
+- family-names: "Ebert"
+  given-names: "Julia"
+  affiliation: "Fleet Robotics"
+  orcid: "https://orcid.org/0000-0002-1975-772X"
+  email: "julia@juliaebert.com"
+- family-names: "Higgins"
+  given-names: "Denvir"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0002-7579-1092"
+- family-names: "Bernstein"
+  given-names: "Jason"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0002-3391-5931"
+- family-names: "Merl"
+  given-names: "Daniel"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0003-4196-5354"
+  email: "merl1@llnl.gov"
+- family-names: "Goumiri"
+  given-names: "Imène"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0002-3149-7828"
+- family-names: "Armstrong"
+  given-names: "Robert"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0002-6911-1038"
+  email: "armstrong46@llnl.gov"
+- family-names: "Lifset"
+  given-names: "Noah"
+  affiliation: "The University of Texas at Austin"
+  orcid: "https://orcid.org/0000-0003-3397-7021"
+- family-names: "Perloff"
+  given-names: "Alexx"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0001-5230-0396"
+  email: "perloff11@llnl.gov"
+- family-names: "McGill"
+  given-names: "Peter"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0002-1052-6749"
+- family-names: "Golovich"
+  given-names: "Nathan"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0003-2632-572X"
+  email: "golovich1@llnl.gov"
+- family-names: "Pruett"
+  given-names: "Kerianne"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0002-2911-8657"
+  email: "pruett6@llnl.gov"
+- family-names: "Miller"
+  given-names: "Caleb"
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0001-6249-0031"
+- family-names: "Dawson"
+  given-names: "William A."
+  affiliation: "Lawrence Livermore National Laboratory"
+  orcid: "https://orcid.org/0000-0003-0248-6123"
+  email: "dawson29@llnl.gov"

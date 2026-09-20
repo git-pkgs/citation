@@ -1,0 +1,5 @@
+Repository: https://github.com/citation-file-format/citation-file-format
+Revision: 0c5b4aa07071490eaf261775ce96ccdd13a6e2d5
+Source directories: examples/1.0.3, examples/1.1.0, examples/1.2.0
+License: CC-BY-4.0; see LICENSE in this directory.
+Files are copied without changes. Pass/fail paths refer to schema validation.

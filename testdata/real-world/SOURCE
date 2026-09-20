@@ -1,0 +1,14 @@
+These 21 CITATION.cff candidates were downloaded unchanged from the source URLs
+recorded in downloads.json on 2026-09-20. No download failed.
+
+manifest.json records byte hashes, observed version declarations, field paths,
+YAML syntax, and independent parsing and validation results. classification is
+one of positive, negative_yaml, negative_schema, or unsupported_version.
+Historical validity is distinct from version support in this Go library.
+
+Original source ownership and attribution remain with each upstream project.
+The files have not been rewritten, normalized, or repaired.
+
+Cached selection labels differed from current downloads. ReSurfEMG declares
+1.1.1, ChemInformant declares 2.1.1, and pdr contains prose and BibTeX. No 1.0.1
+or 1.2SCu example was downloaded. The 1.0.0 candidate is malformed YAML.

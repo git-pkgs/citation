@@ -1,0 +1,58 @@
+cff-version: 1.1.1
+title: ReSurfEMG
+message: "Please cite as below, if you use this software "
+type: software
+authors:
+  -
+    affiliation: "University Health Network"
+    affiliation: "University of Twente"
+    family-names: Warnaar
+    given-names: Robertus (Rob) Simon Petrus
+    orcid: "https://orcid.org/0000-0001-9443-4069"
+  -
+    affiliation: "Netherlands eScience Center"
+    family-names: Moore
+    given-names: Candace Makeda
+    orcid: "https://orcid.org/0000-0003-1672-7565"
+  -
+    affiliation: "Netherlands eScience Center"
+    family-names: Baccinelli
+    given-names: Walter
+    orcid: "https://orcid.org/0000-0001-8888-4792"
+  -
+    affiliation: "Bright Computing/NVIDIA"
+    family-names: Sivokon
+    given-names: Oleg 
+  -
+    affiliation: "University of Twente"
+    family-names: Soleimani
+    given-names: Farnaz
+    orcid: "https://orcid.org/0009-0003-3300-506X"
+  -
+    affiliation: "University of Twente"
+    family-names: Geraats
+    given-names: Stijn
+  -
+    affiliation: "University of Twente"
+    family-names: Maninetti
+    given-names: Chiara
+    orcid: "https://orcid.org/0009-0008-9817-3407"
+  -
+    affiliation: "University of Twente"
+    family-names: Oppersma
+    given-names: Eline
+    orcid: "https://orcid.org/0000-0002-0150-306X"
+
+repository-code: 'https://github.com/resurfemg-org/ReSurfEMG'
+repository-artifact: 'https://pypi.org/project/resurfemg/'
+
+keywords:
+  - electromyography
+  - EMG
+  - respiratory
+  - Python
+  - surface EMG
+  - sEAdi
+license: Apache-2.0
+version: "1.1.1"
+date-released: 05/08/2026
