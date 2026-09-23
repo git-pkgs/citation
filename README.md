@@ -86,4 +86,4 @@ Run the example with `go run ./examples/read path/to/CITATION.cff`, or supply `-
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE).
